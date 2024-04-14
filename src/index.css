@@ -1,0 +1,44 @@
+* {
+  background: #101010;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+label {
+  display: block;
+}
+
+input {
+  padding: 1rem;
+  width: 100%;
+  color: #101010;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+
+}
+
+button {
+  padding: 0.5rem 1rem;
+
+  background-color: white;
+  color: #101010;
+  border: none;
+  border-radius: 2px;
+
+}
+
+span {
+  color: tomato;
+  margin-top: 0.5rem;
+  display: block;
+  font-weight: 700;
+  font-size: x-small;
+}
